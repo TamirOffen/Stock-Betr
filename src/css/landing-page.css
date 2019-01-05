@@ -1,0 +1,20 @@
+#particles-js {
+  background-image: url("../img/image1.jpg");
+  height: 100vh;
+}
+
+.font-lato {
+  font-family: "Lato", sans-serif;
+}
+
+.font-heading {
+  font-family: "Staatliches", cursive;
+}
+
+ul {
+  list-style-type: none;
+}
+
+view {
+  width: 50%;
+}

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Betting Page</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+	<div class="container-fluid" style="height: 100%">
+		<div class="alert-warning" style="padding-top: 1em; padding-bottom: 1em;">
+			<a class="btn btn-warning" style="margin-left: 3em" href="betpage.html">Back!</a>
+			<h1 class="display-4 text-center" id="Name">This is the betting page</h1>
+			<p class="lead text-center" id="Description">This is the description</p>
+			<p class="lead text-center" id="EthereumCost"><< Ethereum: ____ >></p>
+		</div>
+		<div class="row text-center">
+			<div class="col-lg-6 alert-success" style="padding-top: 15em; padding-bottom: 15em;">
+				<button class="btn btn-success btn-lg" id="first" onclick="App.vote(1)">
+					First Option
+				</button>
+			</div>
+			<div class="col-lg-6 alert-info" style="padding-top: 15em;  padding-bottom: 15em;">
+				<button class="btn btn-lg btn-info" id="second" onclick="App.vote(2)">
+					Second Option
+				</button>
+			</div>
+		</div>
+	</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/web3.min.js"></script>
+    <script src="js/truffle-contract.js"></script>
+    <script src="js/app3.js"></script>
+</body>
+</html>
