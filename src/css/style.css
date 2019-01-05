@@ -1,0 +1,15 @@
+.nav-logo {
+  font-size: 37px;
+  font-family: "Staatliches", cursive;
+}
+
+.navbar .nav-link {
+  font-size: 25px;
+  padding-left: 1rem !important;
+  padding-right: 1rem !important;
+  font-family: "Lato", sans-serif;
+}
+
+.navbar .nav-item.active {
+  border-left: #444 3px solid;
+}
